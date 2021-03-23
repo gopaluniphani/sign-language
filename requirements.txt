@@ -1,0 +1,11 @@
+phoenix_datasets @  git+https://github.com/enhuiz/phoenix-datasets
+tqdm
+pandas
+numpy
+xmltodict
+einops
+torch==1.7.0
+torchvision==0.8.1
+torchzq==1.0.6
+tensorboard
+imageio
