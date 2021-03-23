@@ -17,5 +17,5 @@ class TextEncoder(nn.Module):
             self.lstm
         )
 
-    def forward():
-        return self.network()
+    def forward(self, x):
+        return self.network(x)

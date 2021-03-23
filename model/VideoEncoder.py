@@ -22,6 +22,6 @@ class VideoEncoder(nn.Module):
             self.blstm
         )
 
-    def forward():
-        return self.network()
+    def forward(self, x):
+        return self.network(x)
     
