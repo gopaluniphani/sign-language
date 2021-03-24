@@ -22,9 +22,9 @@ def main():
 
     dl = DataLoader(dtrain, collate_fn=dtrain.collate_fn)
 
-    net = Model()
+    net = Model(vocab_size=len(vocab), 512)
     criterion = nn.CTCLoss()
-    optimizer = optim.Adam(net.parameters(), lr=0.001)
+    optimizer = optim.Adam(net.parameters(), lr=0.0005)
 
     for epoch in range(20):
         for batch in dl:
